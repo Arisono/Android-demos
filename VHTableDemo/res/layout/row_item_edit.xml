@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:minHeight="20dp"
+    android:maxHeight="20dp"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    android:background="@drawable/bg_edittext_normal"
+	    android:gravity="center"
+        android:layout_weight="2"
+	    android:maxLines="1"
+	    android:maxWidth="@dimen/scroll_tab_column_width"
+	    android:minWidth="@dimen/scroll_tab_column_width"
+	    android:singleLine="true"
+	    android:enabled="false"
+        android:text="表头测试"
+	    android:textColor="#850" />
+
+    <com.cn.nj.vhtable.CHTableScrollView
+        android:id="@+id/item_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_weight="1" >
+
+        <LinearLayout
+        	android:id="@+id/item_scroll_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </com.cn.nj.vhtable.CHTableScrollView>
+
+</LinearLayout>

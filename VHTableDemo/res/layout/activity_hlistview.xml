@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"  
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/topbar"
+        layout="@layout/common_topbar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:textColor="#850"
+            android:gravity="center"
+            android:background="@color/green"
+            android:text="A区" />
+
+        <com.cn.nj.vhtable.CHScrollView2
+            android:id="@+id/item_scroll_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+                <TextView
+                    android:text="B区1"
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:textColor="#850"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="B区2"
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:textColor="#850"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="B区3"
+                    android:layout_width="100dip"
+                    android:textColor="#850"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="B区4"
+                    android:layout_width="100dip"
+                    android:textColor="#850"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="B区5"
+                    android:layout_width="100dip"
+                    android:textColor="#850"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="B区6"
+                    android:layout_width="100dip"
+                    android:textColor="#850"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+            </LinearLayout>
+        </com.cn.nj.vhtable.CHScrollView2>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/hlistview_scroll_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

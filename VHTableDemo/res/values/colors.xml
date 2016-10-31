@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="color_drgable_listview_name">#ff323232</color>
+<color name="nav_selected1">#ff545557</color>
+<color name="nav_selected">#ff357db4</color>
+
+  <color name="color_text_selected">#ff01b9f0</color> 
+  <color name="color_text_normal">#ff8893a2</color> 
+    <color name="global_background">#fff5f5f5</color>
+    <color name="A_orange">#ffff4400</color>
+    <color name="C_white">#ffffffff</color>
+    <color name="F_black_light_4">#ff999999</color>
+
+    <color name="top_bar_title_color">#ffd15c53</color>
+    <color name="top_bar_menu_color">#ffa6a6a6</color>
+    <color name="system_classic_color">#ffd15c53</color>
+    <color name="articletitle_color">#ff262626</color>
+    <color name="articlesummary_color">#ff7e7e7e</color>
+    <color name="status_color">#ff7d715b</color>
+    <color name="black">#ff323232</color>
+    <color name="edittext_caption_color">#ff9a9283</color>
+    <color name="dividing_line_color">#ff9a9283</color>
+    <color name="orange">#ffff9600</color>
+    <color name="transparent">#00000000</color>
+    <color name="activity_background">#00000000</color>
+    <color name="money">@color/system_classic_color</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="Alpha0">#00000000</color>
+    <color name="red">#ffee0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="white">#ffffffff</color>
+    <color name="blackgrey">#ff0a0a0a</color>
+    <color name="black_gray">#ff202020</color>
+    <color name="gray">#ffbbbbbb</color>
+    <color name="gray2">#ff606060</color>
+    <color name="dark_gray">#ff838486</color>
+    <color name="green_lite">#ff7db00d</color>
+    <color name="yellow_time">#ffdbae39</color>
+    <color name="hintcolor">#00000000</color>
+    <color name="gd_action_bar_tint">#ffa8c24e</color>
+    <color name="gd_action_bar_divider_tint">#77ffffff</color>
+    <color name="umeng_fb_color_btn_pressed">#ff1495f7</color>
+    <color name="umeng_fb_color_btn_normal">#ff333333</color>
+    <drawable name="list_bg_default">#FFFFFF</drawable>
+    
+    <!-- 透明背景 -->
+    <color name="startColor">#0091f7</color>
+    <color name="endColor">#0068e8</color>
+    
+    
+    
+    <color name="lightgoldenrodyellow">#fafad2</color>
+    
+    
+    <color name="favorites_color">#5AA140</color>
+	<color name="nearby_color">#F9CF90</color>
+	<color name="explore_color">#5A89C5</color>
+</resources>

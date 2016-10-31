@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/topbar"
+        layout="@layout/common_topbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccc"
+        android:gravity="fill_vertical"
+        android:minHeight="40dip"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/bg_edittext_normal_title"
+            android:enabled="false"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="@dimen/scroll_tab_column_width"
+            android:minWidth="@dimen/scroll_tab_column_width"
+            android:singleLine="true"
+            android:text="表头测试"
+            android:textColor="#850" />
+
+        <com.cn.nj.vhtable.CHTableScrollView
+            android:id="@+id/item_scroll_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/scrollLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </com.cn.nj.vhtable.CHTableScrollView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/scroll_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

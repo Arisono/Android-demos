@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"  
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        layout="@layout/common_topbar"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dip"
+        android:background="#ccc"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:textColor="#850"
+            android:gravity="center"
+            android:text="表头测试" />
+
+        <com.cn.nj.vhtable.CHTableScrollView
+            android:id="@+id/item_scroll_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+                <TextView
+                    android:text="Date1"
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:textColor="#850"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Date2"
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:textColor="#850"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Date3"
+                    android:layout_width="100dip"
+                    android:textColor="#850"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Date4"
+                    android:layout_width="100dip"
+                    android:textColor="#850"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Date5"
+                    android:layout_width="100dip"
+                    android:textColor="#850"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Date6"
+                    android:layout_width="100dip"
+                    android:textColor="#850"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+            </LinearLayout>
+        </com.cn.nj.vhtable.CHTableScrollView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/scroll_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>
